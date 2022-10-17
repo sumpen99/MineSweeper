@@ -13,7 +13,7 @@ public class CommonMethods {
     }
 
     public static int getRandomInt(int maxValue){
-        double val = Math.random()*1000;
+        double val = Math.random()*10000;
         return (int)val%maxValue;
     }
 
